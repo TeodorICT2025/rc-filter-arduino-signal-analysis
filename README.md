@@ -1,4 +1,4 @@
-# Arduino RC Filter Signal Analysis
+# RC Filter Signal Analysis Arduino 
 
 This project studies the behavior of a first-order RC low-pass filter excited by a time-varying signal generated with Arduino PWM.
 
