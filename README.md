@@ -71,4 +71,3 @@ hardware implementation
 ## Future Work
 
 - Frequency domain analysis using FFT
-- Comparison between theoretical filter attenuation and experimental data
