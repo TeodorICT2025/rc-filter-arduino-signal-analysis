@@ -95,12 +95,16 @@ That was intentional:
 
 ## Selected Oscilloscope Experiments
 
+## Selected Oscilloscope Experiments
+
 | Test | R | C | RC | Frequency | \|H(jω)\| | Observation |
 |------|---|---|----|-----------|-----------|-------------|
-| 1 | 1 kΩ | 100 nF | 0.1 ms | 100 Hz | 0.988 | Output closely matches input amplitude |
-| 2 | 4.7 kΩ | 100 nF | 0.47 ms | 100 Hz | 0.959 | Slight attenuation with larger RC |
+| 1 | 4.7 kΩ | 100 nF | 0.47 ms | 100 Hz | 0.959 | Slight attenuation |
+| 2 | 10 kΩ | 100 nF | 1 ms | 100 Hz | 0.847 | Noticeable attenuation |
 | 3 | 10 kΩ | 100 nF | 1 ms | 200 Hz | 0.623 | Moderate attenuation |
 | 4 | 10 kΩ | 100 nF | 1 ms | 1 kHz | 0.157 | Strong attenuation |
+
+These selected results show how the output amplitude decreases as frequency increases, and also how a larger RC value increases the filtering effect.
 
 These results show the expected behavior of a first-order low-pass filter:
 
